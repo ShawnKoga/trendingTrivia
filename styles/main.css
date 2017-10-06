@@ -37,6 +37,9 @@ header button {
   display: flex;
   align-items: center;
 }
+.chosen{
+  background: rgba(121, 121, 121, 0.43);
+}
 header button span {
   font-size: 2em;
   padding: 0;
@@ -152,7 +155,7 @@ label, input[type="radio"], input[type="range"] {
   width: 100vw;
   background: rgba(88, 88, 88, 0.55);
   display: flex;
-  display: none; /* ALERTDELETEME - REMOVE THIS line only WHEN STYLING THE MODAL*/
+  /* display: none; */
   justify-content: center;
   align-items: center;
 }
